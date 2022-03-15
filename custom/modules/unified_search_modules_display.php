@@ -1,49 +1,21 @@
 <?php
-// created: 2018-08-15 11:18:10
+// created: 2020-03-31 13:15:04
 $unified_search_modules_display = array (
-  'Accounts' => 
+  'AOBH_BusinessHours' => 
   array (
-    'visible' => true,
+    'visible' => false,
   ),
-  'Contacts' => 
+  'AOD_Index' => 
   array (
-    'visible' => true,
+    'visible' => false,
   ),
-  'Opportunities' => 
+  'AOD_IndexEvent' => 
   array (
-    'visible' => true,
+    'visible' => false,
   ),
-  'Calls' => 
+  'AOK_Knowledge_Base_Categories' => 
   array (
-    'visible' => true,
-  ),
-  'Documents' => 
-  array (
-    'visible' => true,
-  ),
-  'Cases' => 
-  array (
-    'visible' => true,
-  ),
-  'AOS_Contracts' => 
-  array (
-    'visible' => true,
-  ),
-  'Leads' => 
-  array (
-    'visible' => true,
-  ),
-  'Meetings' => 
-  array (
-    'visible' => true,
-  ),
-  'Notes' => 
-  array (
-    'visible' => true,
-  ),
-  'Campaigns' => 
-  array (
-    'visible' => true,
+    'visible' => false,
   ),
   'AOP_Case_Events' => 
   array (
@@ -54,6 +26,14 @@ $unified_search_modules_display = array (
     'visible' => false,
   ),
   'AOR_Reports' => 
+  array (
+    'visible' => false,
+  ),
+  'AOR_Scheduled_Reports' => 
+  array (
+    'visible' => false,
+  ),
+  'AOS_Contracts' => 
   array (
     'visible' => false,
   ),
@@ -85,19 +65,63 @@ $unified_search_modules_display = array (
   array (
     'visible' => false,
   ),
+  'Accounts' => 
+  array (
+    'visible' => true,
+  ),
   'Bugs' => 
   array (
     'visible' => false,
   ),
+  'Calls' => 
+  array (
+    'visible' => true,
+  ),
   'Calls_Reschedule' => 
   array (
     'visible' => false,
+  ),
+  'Campaigns' => 
+  array (
+    'visible' => false,
+  ),
+  'Cases' => 
+  array (
+    'visible' => true,
+  ),
+  'Contacts' => 
+  array (
+    'visible' => true,
+  ),
+  'Documents' => 
+  array (
+    'visible' => true,
   ),
   'FP_Event_Locations' => 
   array (
     'visible' => false,
   ),
   'FP_events' => 
+  array (
+    'visible' => false,
+  ),
+  'Leads' => 
+  array (
+    'visible' => true,
+  ),
+  'Meetings' => 
+  array (
+    'visible' => true,
+  ),
+  'Notes' => 
+  array (
+    'visible' => true,
+  ),
+  'Opportunities' => 
+  array (
+    'visible' => true,
+  ),
+  'OutboundEmailAccounts' => 
   array (
     'visible' => false,
   ),
@@ -114,6 +138,26 @@ $unified_search_modules_display = array (
     'visible' => false,
   ),
   'Prospects' => 
+  array (
+    'visible' => false,
+  ),
+  'SurveyQuestionOptions' => 
+  array (
+    'visible' => false,
+  ),
+  'SurveyQuestionResponses' => 
+  array (
+    'visible' => false,
+  ),
+  'SurveyQuestions' => 
+  array (
+    'visible' => false,
+  ),
+  'SurveyResponses' => 
+  array (
+    'visible' => false,
+  ),
+  'Surveys' => 
   array (
     'visible' => false,
   ),
